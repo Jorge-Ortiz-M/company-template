@@ -1,6 +1,6 @@
 import { NavIconProps } from "@/interfaces";
 
-const DesktopIcon = ({ icon }:NavIconProps) => {
+const ResponsiveIcon = ({ icon }:NavIconProps) => {
 
   return(
     <li className="text-xl cursor-pointer">
@@ -9,4 +9,4 @@ const DesktopIcon = ({ icon }:NavIconProps) => {
   )
 }
 
-export default DesktopIcon;
+export default ResponsiveIcon;

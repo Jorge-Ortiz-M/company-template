@@ -1,6 +1,6 @@
-import { DesktopLinkProps } from "@/interfaces";
+import { NavLinkProps } from "@/interfaces";
 
-const DesktopLink = ({ title }:DesktopLinkProps) => {
+const DesktopLink = ({ title }:NavLinkProps) => {
 
   return(
     <li className="font-medium cursor-pointer">

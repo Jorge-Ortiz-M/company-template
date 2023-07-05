@@ -1,9 +1,9 @@
 import React from "react";
 
-export interface DesktopLinkProps {
+export interface NavLinkProps {
   title: string;
 }
 
-export interface DesktopIconProps {
+export interface NavIconProps {
   icon: React.ReactNode;
 }
