@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#homepage-welcome{
+  background-image: url("/assets/building.jpg");
+}
+
+#homepage-welcome{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: soft-light;
+  background-color: #000000c0;
+}
