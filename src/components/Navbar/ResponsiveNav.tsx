@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { FaGithub, FaGoogle, FaFacebook, FaBars, FaTimesCircle } from "react-icons/fa";
+import { FaGithub, FaGoogle, FaFacebook, FaBars, FaTimesCircle, FaBattleNet } from "react-icons/fa";
 import ResponsiveIcon from "./ResponsiveIcon";
 import ResponsiveLink from "./ResponsiveLink";
 
@@ -9,22 +9,28 @@ const ResponsiveNav = () => {
 
   return(
     <nav className="flex flex-col md:hidden w-full">
-      <div className="flex items-center justify-between p-5">
-        <h3 className="text-2xl font-bold">
-          Company Inc
-        </h3>
+      <div className="flex items-center justify-between p-5 text-white">
+        <div className="flex items-center gap-2">
+          <span className="text-2xl"><FaBattleNet /></span>
+          <h3 className="text-2xl font-bold">
+            Company Inc
+          </h3>
+        </div>
         <span className="text-xl cursor-pointer" onClick={() => setShowNav(true)}>
           <FaBars />
         </span>
       </div>
       {
         showNav &&
-        <div className="bg-slate-100 flex flex-col fixed justify-between h-full w-full">
+        <div className="bg-slate-100 flex flex-col fixed justify-between h-full w-full z-10">
           <div className="flex flex-col">
             <div className="flex items-center justify-between bg-slate-200 p-5">
-              <h3 className="text-2xl font-bold">
-                Company Inc
-              </h3>
+              <div className="flex items-center gap-2">
+                <span className="text-2xl"><FaBattleNet /></span>
+                <h3 className="text-2xl font-bold">
+                  Company Inc
+                </h3>
+              </div>
               <span className="text-xl cursor-pointer" onClick={() => setShowNav(false)}>
                 <FaTimesCircle />
               </span>
