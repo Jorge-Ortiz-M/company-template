@@ -2,6 +2,12 @@ import React from "react";
 
 export interface NavLinkProps {
   title: string;
+  urlPath: string;
+}
+
+export interface FooterLinkProps {
+  title: string;
+  urlPath: string;
 }
 
 export interface NavIconProps {

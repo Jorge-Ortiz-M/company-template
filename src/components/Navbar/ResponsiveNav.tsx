@@ -36,9 +36,9 @@ const ResponsiveNav = () => {
               </span>
             </div>
             <ul className="flex flex-col gap-5 p-5">
-              <ResponsiveLink title="Home" />
-              <ResponsiveLink title="Contact" />
-              <ResponsiveLink title="Products" />
+              <ResponsiveLink title="Home" urlPath="/" />
+              <ResponsiveLink title="Contact" urlPath="/contact" />
+              <ResponsiveLink title="Products" urlPath="/products" />
             </ul>
           </div>
           <div className="flex flex-col gap-5 p-5">
