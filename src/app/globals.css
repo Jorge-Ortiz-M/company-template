@@ -10,7 +10,11 @@
   background-image: url("/assets/products.jpg");
 }
 
-#homepage-welcome, #products-welcome{
+#contact-welcome{
+  background-image: url("/assets/contact-page.jpg");
+}
+
+#homepage-welcome, #products-welcome, #contact-welcome{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

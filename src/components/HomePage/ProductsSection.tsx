@@ -10,6 +10,7 @@ const ProductsSection = () => {
           alt="why-us-company"
           width={330}
           height={330}
+          className="w-auto"
         />
       </div>
       <div className="flex flex-col w-full sm:w-4/6 gap-5 items-center md:items-end">
