@@ -6,7 +6,11 @@
   background-image: url("/assets/building.jpg");
 }
 
-#homepage-welcome{
+#products-welcome{
+  background-image: url("/assets/products.jpg");
+}
+
+#homepage-welcome, #products-welcome{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

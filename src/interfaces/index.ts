@@ -14,3 +14,7 @@ export interface ClientCardProps {
   comments: string;
   date: string;
 }
+
+export interface CustomCardProps {
+  imageURL: string;
+}
